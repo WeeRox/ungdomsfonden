@@ -1,0 +1,306 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+#title {
+  margin: 0;
+  color: #0D47A1;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 8vw;
+  padding-bottom: 20px;
+}
+
+.block {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 30px;
+  padding-bottom: 80px;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  background: white;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, #F6F6F6);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #F6F6F6);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #F6F6F6);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #F6F6F6);
+  /* Standard syntax */
+  -webkit-transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -ms-transition: .2s ease all;
+  -o-transition: .2s ease all;
+}
+
+.block h2 {
+  font-size: 5vw;
+  font-weight: 100;
+  font-family: 'Josefin Slab', serif;
+  color: #0D47A1;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.block p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Arima Madurai', serif;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.block .material-icons {
+  color: #0D47A1;
+  font-size: 50px;
+  width: 50px;
+  left: 50%;
+  position: absolute;
+  bottom: 30px;
+  cursor: default;
+  transform: translate(-50%, 0);
+  display: block;
+  text-decoration: none;
+  -webkit-transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -ms-transition: .2s ease all;
+  -o-transition: .2s ease all;
+}
+
+.block .material-icons:hover {
+  color: #0D47A1;
+  font-size: 70px;
+  width: 70px;
+  left: 50%;
+  position: absolute;
+  bottom: 20px;
+  cursor: default;
+  transform: translate(-50%, 0);
+  display: block;
+  text-decoration: none;
+}
+
+.news .content {
+  width: 80%;
+  float: left;
+}
+
+.news .date {
+  display: inline-block;
+  float: right;
+}
+
+.news h3 {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'Arima Madurai', serif;
+  color: #0D47A1;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.news img {
+  width: 100%;
+  margin: 5px 0;
+}
+
+#download {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #0D47A1;
+  border-radius: 5px;
+}
+
+#download a {
+  width: 300px;
+  height: 40px;
+  color: #0D47A1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+
+#download:hover {
+  transition: background-color 150ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  background-color: #0D47A1;
+}
+
+#download a:hover {
+  transition: color 150ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  display: inline;
+}
+
+tr:first-child {
+  background-color: #0D47A1;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr {
+  background-color: #82B1FF;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px;
+  color: white;
+  text-align: left;
+}
+
+td {
+  font-family: 'Roboto';
+  padding: 15px;
+  font-size: 16px;
+}
+
+td~td {
+  text-align: right;
+}
+
+th~th {
+  text-align: right;
+}
+
+#contact .material-icons {
+  color: #FFFFFF;
+  font-size: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: default;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -ms-transition: .2s ease all;
+  -o-transition: .2s ease all;
+}
+
+#contact .material-icons:hover {
+  font-size: 120px;
+  width: 120px;
+  top: 10px;
+  right: 10px;
+}
+
+#contact {
+  position: relative;
+  color: white;
+  font-family: monospace;
+  font-size: 16pt;
+  background-color: #0D47A1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contact p {
+  margin: 0;
+  padding: 5px;
+  color: white;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact-cards {
+  padding-right: 120px;
+}
+
+.contact-card {
+  width: 475px;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 15px 0;
+}
+
+@media (max-width: 1165px) {
+  .contact-card {
+    display: block;
+    width: auto;
+  }
+
+  .contact-card~.contact-card {
+    border-top: 1px solid white;
+  }
+}
+
+@media (max-width: 540px) {
+  #contact p {
+    font-size: 10pt;
+    padding: 2px;
+  }
+
+  .contact-card {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 523px) {
+  #title {
+    font-size: 34px;
+  }
+  .block h2 {
+    font-size: 32px;
+  }
+  #download {
+    width: 100%;
+  }
+  #download a {
+    width: 100%;
+  }
+  table {
+    display: block;
+  }
+  tbody {
+    display: block;
+  }
+  tr {
+    display: block;
+    background-color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #82B1FF;
+  }
+  td {
+    display: block;
+  }
+  td~td {
+    padding-top: 0;
+  }
+  th {
+    display: none;
+  }
+  .block .material-icons {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  #download a {
+    font-size: 14px;
+  }
+}
