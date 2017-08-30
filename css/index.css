@@ -88,8 +88,7 @@ body {
 }
 
 .news .content {
-  width: 80%;
-  float: left;
+  width: 100%;
 }
 
 .news .date {
