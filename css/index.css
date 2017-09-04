@@ -100,39 +100,15 @@ body {
 }
 
 .share .button {
-  width: 100%;
+  width: 50px;
   height: 50px;
+  display: block;
   margin: 10px 0;
   cursor: pointer;
 }
 
-.share p {
-  color: white;
-  font-family: 'Arial';
-  margin: 0;
-  padding: 0;
-  margin-top: -10px;
-}
-
 .share .button svg.icon {
   height: 100%;
-}
-
-.share .button .left, .share .button .right {
-  text-align: center;
-  line-height: 50px;
-  height: 50px;
-  font-weight: bold;
-}
-
-.share .button .left {
-  width: 50px;
-  float: left;
-}
-
-.share .button .right {
-  padding: 10px 0;
-  box-sizing: border-box;
 }
 
 .news .date {
