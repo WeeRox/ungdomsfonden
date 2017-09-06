@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".button.google-plus").click(function (event) {
+  $(".google-plus").click(function (event) {
     var element = $(this);
     var width = 600,
       height = 600,

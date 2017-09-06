@@ -8,7 +8,7 @@ $(document).ready(function () {
     });
     FB.AppEvents.logPageView();
 
-    $('.share .button.facebook').on('click', function() {
+    $('.facebook').on('click', function() {
       FB.ui({
         method: 'share',
         href: 'http://90.230.26.214:8888/#frastavallen'
