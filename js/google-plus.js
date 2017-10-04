@@ -5,7 +5,7 @@ $(document).ready(function () {
       height = 600,
       left = ($(window).width() - width) / 2,
       top = ($(window).height() - height) / 2,
-      url = "https://plus.google.com/share?url=" + element.attr('url'),
+      url = "https://plus.google.com/share?url=" + window.location.href,
       options = 'status=1' +
                  ',width='  + width  +
                  ',height=' + height +

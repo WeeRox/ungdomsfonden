@@ -11,7 +11,7 @@ $(document).ready(function () {
     $('.facebook').on('click', function() {
       FB.ui({
         method: 'share',
-        href: 'http://90.230.26.214:8888/#frastavallen'
+        href: window.location.href
       }, function(response){});
     });
 

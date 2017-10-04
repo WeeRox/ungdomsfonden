@@ -5,7 +5,7 @@ $(document).ready(function () {
       height = 400,
       left = ($(window).width() - width) / 2,
       top = ($(window).height() - height) / 2,
-      url = "https://twitter.com/intent/tweet?url=" + element.attr('url'),
+      url = "https://twitter.com/intent/tweet?url=" + window.location.href,
       options = 'status=1' +
                  ',width='  + width  +
                  ',height=' + height +
