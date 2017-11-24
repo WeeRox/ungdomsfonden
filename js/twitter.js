@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".twitter").click(function (event) {
     var element = $(this);
     var width = 575,
-      height = 400,
+      height = 300,
       left = ($(window).width() - width) / 2,
       top = ($(window).height() - height) / 2,
       url = "https://twitter.com/intent/tweet?url=" + window.location.href,

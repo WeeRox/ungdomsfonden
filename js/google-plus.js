@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".google-plus").click(function (event) {
     var element = $(this);
-    var width = 600,
+    var width = 400,
       height = 600,
       left = ($(window).width() - width) / 2,
       top = ($(window).height() - height) / 2,
