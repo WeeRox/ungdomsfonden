@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Nyheter</title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="stylesheet" href="/css/news.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400|Josefin+Slab|Playfair+Display:700|Material+Icons|Roboto" rel="stylesheet" />
     <meta charset="utf-8">
@@ -8,7 +9,7 @@
     <meta name="theme-color" content="#0D47A1" />
   </head>
   <body style="padding: 30px;">
-    <h1>Nyheter</h1>
+    <h2>Nyheter</h2>
     <div id="articles">
       <?php
       function get_files($dir)
@@ -68,7 +69,7 @@
         echo '<a href="' . str_replace('\\', '/', str_replace(__DIR__, '', $value)) . '">';
         echo '<img src="' . str_replace(__DIR__, '', get_image($value)) . '" />';
         echo '<p id="date">' . get_date($value) . '</p>';
-        echo '<h2>' . get_title($value) . '</h2>';
+        echo '<h3>' . get_title($value) . '</h3>';
         echo '<p>' . get_text($value) . '</p>';
         echo "</a>";
         echo "</div>";

@@ -22,6 +22,6 @@ ErrorDocument 500 /error/500.html
 
 #Rewrite everything to https except when on localhost
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !=localhost
+RewriteCond %{HTTP_HOST} !localhost
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

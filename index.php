@@ -3,7 +3,8 @@
 
 <head>
   <title>Ungdomsfonden i Gnarp</title>
-  <link rel="stylesheet" href="/css/index.css" type="text/css" />
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/index.css" type="text/css">
   <link rel="stylesheet" href="/css/news.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400|Josefin+Slab|Playfair+Display:700|Material+Icons|Roboto" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -17,7 +18,7 @@
 <body>
   <div id="content">
     <div class="block" id="about">
-      <h1 id="title">Ungdomsfonden i Gnarp</h1>
+      <h1>Ungdomsfonden i Gnarp</h1>
       <h2>Om oss</h2>
       <p>Ungdomsfonden bildades 1997. Syftet är att stötta allmännyttig verksamhet för barn och ungdom i Gnarp. Inom bland annat kultur, idrott, natur/miljö eller annan barn- och ungdomsverksamhet.</p>
       <p>Styrelsen för Ungdomsfonden har inga arvoden.</p>
@@ -90,7 +91,7 @@
           echo '<a href="' . str_replace('\\', '/', str_replace(__DIR__, '', $value)) . '">';
           echo '<img src="' . str_replace(__DIR__, '', get_image($value)) . '" />';
           echo '<p id="date">' . get_date($value) . '</p>';
-          echo '<h2>' . get_title($value) . '</h2>';
+          echo '<h3>' . get_title($value) . '</h3>';
           echo '<p>' . get_text($value) . '</p>';
           echo "</a>";
           echo "</div>";
@@ -107,26 +108,18 @@
     </div>
     <div class="block" id="apply">
       <h2>Sök pengar</h2>
-      <p>
-        Alla föreningar i Gnarp som bedriver barn- och ungdomsverksamhet kan som medlem i Ungdomsfonden söka bidrag till sin förening.
-        <br />
-        Medlemsavgiften är 50 kr/år.
-      </p>
-      <p>
-        Om din förening vill söka bidrag så fyller ni i ansökningsblanketten och skickar den med post till
-        <br />
-        Ungdomsfonden
-        <br />
-        c/o Hälsingesylt
-        <br />
-        Grängsjö 218
-        <br />
-        82077 Gnarp
-        <br />
-        eller mailar till lisa@halsingesylt.se
-      </p>
-      <p>Ansökan ska vara oss tillhanda senast 1 december. </p>
-      <div id="download">
+      <p>Alla föreningar i Gnarp som bedriver barn- och ungdomsverksamhet kan som medlem i Ungdomsfonden söka bidrag till sin förening.</p>
+      <p>Medlemsavgiften är 50 kr/år.</p>
+      <p>Om din förening vill söka bidrag så fyller ni i ansökningsblanketten och skickar den med post till</p>
+        <div class="address">
+          <p>Ungdomsfonden</p>
+          <p>c/o Hälsingesylt</p>
+          <p>Grängsjö 218</p>
+          <p>82077 Gnarp</p>
+        </div>
+      <p>eller mailar till <a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
+      <p>Ansökan ska vara oss tillhanda senast 1 december.</p>
+      <div class="button">
         <a href="/doc/Ansökan Ungdomsfonden i Gnarp.pdf" download>Ladda ner ansökningsblankett</a>
       </div>
       <a href="#approved" class="material-icons">keyboard_arrow_down</a>
@@ -221,34 +214,34 @@
     </div>
     <div id="contact">
       <div id="contact-cards">
-        <div class="contact-card">
+        <div class="contact-card address">
           <p>Sverker Söderström</p>
           <p>Ordförande</p>
-          <p>070-697 73 45</p>
+          <p><a href="tel:+46 70-697 73 45">070-697 73 45</a></p>
           <p><a href="mailto:sverker.soderstrom@telia.com">sverker.soderstrom@telia.com</a></p>
         </div>
-        <div class="contact-card">
+        <div class="contact-card address">
           <p>Lisa Sjöström</p>
           <p>Sekreterare</p>
-          <p>070-304 35 42</p>
+          <p><a href="+46 70-304 35 42">070-304 35 42</a></p>
           <p><a href="mailto:elisabeth.sjostrom@regiongavleborg.se">elisabeth.sjostrom@regiongavleborg.se</a></p>
         </div>
-        <div class="contact-card">
+        <div class="contact-card address">
           <p>Lisa B Östman</p>
           <p>Kassör</p>
-          <p>070-227 66 15</p>
+          <p><a href="tel:+46 70-227 66 15">070-227 66 15</a></p>
           <p><a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
         </div>
-        <div class="contact-card">
+        <div class="contact-card address">
           <p>Inga Berglin</p>
           <p>Styrelseledamot</p>
-          <p>070-369 09 23</p>
+          <p><a href="+46 70-369 09 23">070-369 09 23</a></p>
           <p><a href="mailto:inga.berglin@telia.com">inga.berglin@telia.com</a></p>
         </div>
-        <div class="contact-card">
+        <div class="contact-card address">
           <p>Alf Nordlund</p>
           <p>Styrelseledamot</p>
-          <p>070-651 79 21</p>
+          <p><a href="tel:+46 70-651 79 21">070-651 79 21</a></p>
           <p><a href="mailto:alf.nordlund2016@gmail.com">alf.nordlund2016@gmail.com</a></p>
         </div>
       </div>
