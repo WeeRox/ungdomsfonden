@@ -135,7 +135,7 @@ th~th {
   box-sizing: border-box;
 }
 
-#contact p, a {
+#contact p, #contact a {
   color: white;
 }
 

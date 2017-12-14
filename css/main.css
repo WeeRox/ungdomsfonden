@@ -6,15 +6,15 @@ body {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 6em;
   color: #0D47A1;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Josefin Slab', serif;
-  font-weight: 100;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 4em;
   color: #0D47A1;
   margin: 0;
@@ -22,8 +22,8 @@ h2 {
 
 h3 {
   font-family: 'Playfair Display', serif;
-  font-weight: bold;
-  font-size: 3em;
+  font-weight: 700;
+  font-size: 2em;
   color: #0D47A1;
   margin: 0;
   margin-top: 5px;
@@ -32,8 +32,8 @@ h3 {
 }
 
 p {
-  font-family: 'Arima Madurai', serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   font-size: 1.2em;
   margin: 0;
   padding: 10px 0;
@@ -45,30 +45,25 @@ a {
   color: #0D47A1;
 }
 
-.button {
-  width: 300px;
-  height: 40px;
+button {
+  background-color: transparent;
   border: 1px solid #0D47A1;
-}
-
-.button a {
-  width: 300px;
-  height: 40px;
-  color: #0D47A1;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  text-transform: uppercase;
+  font-family: 'Raleway';
   font-weight: 500;
-  display: block;
-  text-align: center;
-  line-height: 40px;
+  font-size: 1em;
+  padding: 0;
 }
 
-.button:hover {
+button a {
+  display: block;
+  padding: 10px 40px;
+}
+
+button:hover {
   transition: background-color 500ms cubic-bezier(.18,.89,.32,1.28);
   background-color: #0D47A1;
 }
 
-.button a:hover {
+button a:hover {
   color: white;
 }

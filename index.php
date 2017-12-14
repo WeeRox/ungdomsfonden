@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link rel="stylesheet" href="/css/index.css" type="text/css">
   <link rel="stylesheet" href="/css/news.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400|Josefin+Slab|Playfair+Display:700|Material+Icons|Roboto" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Playfair+Display:700|Material+Icons|Roboto" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script async src="/js/index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -119,9 +119,9 @@
         </div>
       <p>eller mailar till <a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
       <p>Ansökan ska vara oss tillhanda senast 1 december.</p>
-      <div class="button">
+      <button>
         <a href="/doc/Ansökan Ungdomsfonden i Gnarp.pdf" download>Ladda ner ansökningsblankett</a>
-      </div>
+      </button>
       <a href="#approved" class="material-icons">keyboard_arrow_down</a>
     </div>
     <div class="block" id="approved">
