@@ -52,7 +52,7 @@ a {
 }
 
 address p {
-  padding: 0;
+  padding: 0.1em;
   font-style: normal;
 }
 
