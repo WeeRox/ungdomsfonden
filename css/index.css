@@ -7,6 +7,12 @@ h2 {
   padding-bottom: 10px;
 }
 
+#top {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 section {
   width: 100vw;
   min-height: 100vh;
@@ -132,19 +138,73 @@ footer address {
   padding: 15px 0;
 }
 
-@media (max-width: 523px) {
-  #title {
-    font-size: 34px;
+@media (max-width: 1185px) {
+  h1 {
+    font-size: 6em;
   }
-  .block h2 {
-    font-size: 32px;
+}
+
+@media (max-width: 1030px) {
+  h1 {
+    font-size: 5em;
   }
-  #download {
-    width: 100%;
+
+  h2 {
+    font-size: 3em;
   }
-  #download a {
-    width: 100%;
+}
+
+@media (max-width: 935px) {
+  h1 {
+    font-size: 4.5em;
   }
+
+  section .material-icons {
+    bottom: 10px;
+  }
+
+  section .material-icons:hover {
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 725px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+  }
+}
+
+/*
+@media (max-width: 500px) {
   table {
     display: block;
   }
@@ -167,7 +227,17 @@ footer address {
   th {
     display: none;
   }
-  .block .material-icons {
-    bottom: 10px;
+}
+*/
+
+@media (max-width: 500px) {
+  h1 {
+  }
+
+  h2 {
+  }
+
+  section {
+    padding: 1em 2em 3em 2em;
   }
 }

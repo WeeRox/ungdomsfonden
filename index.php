@@ -130,7 +130,7 @@
     <a href="#approved" class="material-icons">keyboard_arrow_down</a>
   </section>
   <section id="approved">
-    <h2>Beviljade bidrag geonom åren</h2>
+    <h2>Beviljade bidrag genom åren</h2>
     <div>
       <table>
         <tr>
@@ -217,7 +217,7 @@
     </div>
     <a href="#contact" class="material-icons">keyboard_arrow_down</a>
   </section>
-  <footer>
+  <footer id="contact">
     <address>
       <p>Sverker Söderström</p>
       <p>Ordförande</p>
