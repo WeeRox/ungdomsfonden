@@ -18,7 +18,7 @@
   <body>
     <div id="news">
       <h3>Slåtter på Frästavallen</h3>
-      <p id="date">2017-07-24</p>
+      <time datetime="2017-07-24" id="date">2017-07-24</time>
       <p>Stor uppslutning på årets slåtter. Drygt 20 personer slöt upp och på en timme så hade vi räfsat upp det slagna gräset, sedan fick vi åtnjuta fika i Ungdomsfondens fäbodstuga medan regnet föll utanför. </p>
       <img src="/img/frastavallen/20170724-1.jpg" />
       <img src="/img/frastavallen/20170724-2.jpg" />

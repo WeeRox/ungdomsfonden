@@ -6,8 +6,7 @@ h2 {
 .block {
   width: 100vw;
   min-height: 100vh;
-  padding: 30px;
-  padding-bottom: 80px;
+  padding: 2em 3em 4em 3em;
   margin: 0;
   box-sizing: border-box;
   position: relative;
@@ -28,7 +27,6 @@ h2 {
 }
 
 .block .material-icons {
-  color: #0D47A1;
   font-size: 50px;
   width: 50px;
   left: 50%;
@@ -37,7 +35,6 @@ h2 {
   cursor: default;
   transform: translate(-50%, 0);
   display: block;
-  text-decoration: none;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
   -ms-transition: .2s ease all;
@@ -45,7 +42,6 @@ h2 {
 }
 
 .block .material-icons:hover {
-  color: #0D47A1;
   font-size: 70px;
   width: 70px;
   left: 50%;
@@ -54,11 +50,6 @@ h2 {
   cursor: default;
   transform: translate(-50%, 0);
   display: block;
-  text-decoration: none;
-}
-
-.address p {
-  padding: 0;
 }
 
 table {

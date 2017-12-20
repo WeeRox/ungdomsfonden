@@ -61,7 +61,7 @@
 
         function get_date($file) {
           $content = file_get_contents($file);
-          $date = preg_match("/<p id=\"date\">(.*)<\/p>/i", $content, $match);
+          $date = preg_match("/<time datetime=\"(.*)\" id=\"date\">(.*)<\/time>/i", $content, $match);
           $date = preg_replace('/\s+/', ' ', $match[1]);
           $date = trim($date);
           return $date;
@@ -90,7 +90,7 @@
           echo "<div>";
           echo '<a href="' . str_replace('\\', '/', str_replace(__DIR__, '', $value)) . '">';
           echo '<img src="' . str_replace(__DIR__, '', get_image($value)) . '" />';
-          echo '<p id="date">' . get_date($value) . '</p>';
+          echo '<time datetime="' . get_date($value) . '" id="date">' . get_date($value) . '</time>';
           echo '<h3>' . get_title($value) . '</h3>';
           echo '<p>' . get_text($value) . '</p>';
           echo "</a>";
@@ -111,12 +111,12 @@
       <p>Alla föreningar i Gnarp som bedriver barn- och ungdomsverksamhet kan som medlem i Ungdomsfonden söka bidrag till sin förening.</p>
       <p>Medlemsavgiften är 50 kr/år.</p>
       <p>Om din förening vill söka bidrag så fyller ni i ansökningsblanketten och skickar den med post till</p>
-        <div class="address">
+        <address>
           <p>Ungdomsfonden</p>
           <p>c/o Hälsingesylt</p>
           <p>Grängsjö 218</p>
           <p>82077 Gnarp</p>
-        </div>
+        </address>
       <p>eller mailar till <a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
       <p>Ansökan ska vara oss tillhanda senast 1 december.</p>
       <button>
@@ -214,36 +214,36 @@
     </div>
     <div id="contact">
       <div id="contact-cards">
-        <div class="contact-card address">
+        <address class="contact-card">
           <p>Sverker Söderström</p>
           <p>Ordförande</p>
           <p><a href="tel:+46 70-697 73 45">070-697 73 45</a></p>
           <p><a href="mailto:sverker.soderstrom@telia.com">sverker.soderstrom@telia.com</a></p>
-        </div>
-        <div class="contact-card address">
+        </address>
+        <address class="contact-card">
           <p>Lisa Sjöström</p>
           <p>Sekreterare</p>
-          <p><a href="+46 70-304 35 42">070-304 35 42</a></p>
+          <p><a href="tel:+46 70-304 35 42">070-304 35 42</a></p>
           <p><a href="mailto:elisabeth.sjostrom@regiongavleborg.se">elisabeth.sjostrom@regiongavleborg.se</a></p>
-        </div>
-        <div class="contact-card address">
+        </address>
+        <address class="contact-card">
           <p>Lisa B Östman</p>
           <p>Kassör</p>
           <p><a href="tel:+46 70-227 66 15">070-227 66 15</a></p>
           <p><a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
-        </div>
-        <div class="contact-card address">
+        </address>
+        <address class="contact-card">
           <p>Inga Berglin</p>
           <p>Styrelseledamot</p>
-          <p><a href="+46 70-369 09 23">070-369 09 23</a></p>
+          <p><a href="tel:+46 70-369 09 23">070-369 09 23</a></p>
           <p><a href="mailto:inga.berglin@telia.com">inga.berglin@telia.com</a></p>
-        </div>
-        <div class="contact-card address">
+        </address>
+        <address class="contact-card">
           <p>Alf Nordlund</p>
           <p>Styrelseledamot</p>
           <p><a href="tel:+46 70-651 79 21">070-651 79 21</a></p>
           <p><a href="mailto:alf.nordlund2016@gmail.com">alf.nordlund2016@gmail.com</a></p>
-        </div>
+        </address>
       </div>
       <a href="#about" class="material-icons">keyboard_arrow_up</a>
     </div>
