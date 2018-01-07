@@ -237,12 +237,6 @@
       <p><a href="mailto:lisa@halsingesylt.se">lisa@halsingesylt.se</a></p>
     </address>
     <address>
-      <p>Inga Berglin</p>
-      <p>Styrelseledamot</p>
-      <p><a href="tel:+46 70-369 09 23">070-369 09 23</a></p>
-      <p><a href="mailto:inga.berglin@telia.com">inga.berglin@telia.com</a></p>
-    </address>
-    <address>
       <p>Alf Nordlund</p>
       <p>Styrelseledamot</p>
       <p><a href="tel:+46 70-651 79 21">070-651 79 21</a></p>
