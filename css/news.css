@@ -1,5 +1,12 @@
 #articles {
-  width: 50%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#articles > div {
+  flex: 1;
+  margin: 0 10px;
 }
 
 time {
@@ -19,4 +26,10 @@ time {
 #articles div img {
   width: 100%;
   margin: 5px 0;
+}
+
+@media (mmax-width: 55em) {
+  #articles > div {
+    flex-basis: calc(50%);
+  }
 }
