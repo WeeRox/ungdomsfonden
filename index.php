@@ -163,7 +163,7 @@
         </tr>
         <tr>
           <td>Gnarps Ridklubb</td>
-          <td>1 588 000 kr</td>
+          <td>1 718 500 kr</td>
         </tr>
         <tr>
           <td>Gnarps Schackklubb</td>
@@ -179,7 +179,7 @@
         </tr>
         <tr>
           <td>Gällsta IK</td>
-          <td>2 056 000 kr</td>
+          <td>2 256 000 kr</td>
         </tr>
         <tr>
           <td>Hoppskogens IK</td>
@@ -187,7 +187,7 @@
         </tr>
         <tr>
           <td>IFK Gnarp</td>
-          <td>699 000 kr</td>
+          <td>764 000 kr</td>
         </tr>
         <tr>
           <td>IOGT Gnarp</td>
@@ -203,7 +203,7 @@
         </tr>
         <tr>
           <td>Norrfjärns IF</td>
-          <td>340 000 kr</td>
+          <td>376 000 kr</td>
         </tr>
         <tr>
           <td>Bågskytteklubben Gnarp</td>
@@ -212,6 +212,10 @@
         <tr>
           <td>Årskogens IK</td>
           <td>15 000 kr</td>
+        </tr>
+        <tr>
+          <td>Sörfjärdens golfklubb</td>
+          <td>150 000 kr</td>
         </tr>
       </table>
     </div>

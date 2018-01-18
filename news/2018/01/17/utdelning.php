@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv">
   <head>
-    <title>Slåtter på Frästavallen</title>
+    <title>Ungdomsfonden i Gnarp delar ut nästan 600 000 kr</title>
     <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="stylesheet" href="/css/news-article.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Playfair+Display:700" rel="stylesheet" />
@@ -17,12 +17,12 @@
   </head>
   <body>
     <div id="news">
-      <h2>Slåtter på Frästavallen</h2>
-      <time datetime="2017-07-24" id="date">2017-07-24</time>
-      <p>Stor uppslutning på årets slåtter. Drygt 20 personer slöt upp och på en timme så hade vi räfsat upp det slagna gräset, sedan fick vi åtnjuta fika i Ungdomsfondens fäbodstuga medan regnet föll utanför. </p>
-      <img src="/img/frastavallen/20170724-1.jpg" />
-      <img src="/img/frastavallen/20170724-2.jpg" />
-      <img src="/img/frastavallen/20170724-3.jpg" />
+      <h2>Ungdomsfonden i Gnarp delar ut nästan 600 000 kr</h2>
+      <time datetime="2017-01-17" id="date">2018-01-17</time>
+      <p>Fem föreningar i Gnarp får dela på 581 500 kronor. Det beslutade ungdomsfonden på orten vid ett möte på onsdagskvällen. Därmed har fonden under åren stöttat föreningslivet med cirka 7,3 miljoner.</p>
+      <p>Gällsta IK får 200 000 kronor för att betala av lån på den nyinstallerade tältduken.</p>
+      <p>Sörfjärdens golfklubb ska investera i bananläggningen och får 150 000 medan Gnarps ridklubb stöttas med 130 500 till främst nymålning av ridhuset.</p>
+      <p>IFK Gnarp får 65 000 till flera olika investeringar och Norrfjärns IF 36 000 till främst bordtennisbord.</p>
     </div>
     <div id="share">
       <a class="share-button facebook">
